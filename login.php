@@ -1,0 +1,46 @@
+<!-- perafersisht lidhja me databaze edhe krijimi i loginit -->
+<?php 
+
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "databaza";
+
+    mysql_connect($host, $user, $password);
+    mysql_select_db($db);
+
+    if(isset($_POST['username'])){
+        
+        $uname = $_POST['username'];
+        $password = $_POST['password'];
+
+        $sql = "select * from loginform where user='" . $uname . "'AND Pass='" . $password . "'limit 1";
+        
+        $result = mysql_query($sql);
+
+        if(mysql_num_rows($result) == 1){
+            echo "You Have Succesfully Logged In";
+            exit();
+        }
+        else{
+            echo "You Have Entered Incorrect Password";
+            exit();
+        }
+    }
+?>
+
+<!-- qka duhet HTML me pas... -->
+
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <input type="text" name="username" placeholder="Enter your username">
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Enter your password">
+            </div>
+            <input type="submit" name="submit" value="LOGIN">
+        </form>
+    </div>
+</body>
