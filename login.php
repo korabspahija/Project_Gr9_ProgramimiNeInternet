@@ -32,8 +32,8 @@
 <!-- qka duhet HTML me pas... -->
 
 <body>
-    <div class="container">
-        <form>
+    <div>
+        <form action="login.php" method="POST">
             <div>
                 <input type="text" name="username" placeholder="Enter your username">
             </div>
