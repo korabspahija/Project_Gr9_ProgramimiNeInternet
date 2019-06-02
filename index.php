@@ -75,103 +75,57 @@
         </div>
       </div>
     </section>
-    
-    <section class="section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Every Dog Needs A Good Owner</h2>
-            <p class="mb-5 lead">Inside of a dog, it's too dark to read." "Money can buy you a fine dog, but only love can make him wag his tail." "Dogs are not our whole life, but they make our lives whole." "A dog is the only thing on earth that loves you more than he loves himself."</p>
-          </div>
-        </div>
-        <div class="row element-animate">
-          <div class="major-caousel js-carousel-1 owl-carousel">
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Mellisa Howard</h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Mike Richardson</h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Charles White</h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="img/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Laura Smith</h3>
-                </div>
-              </div>
-            </div>
-          </div>
           <!-- END slider -->
         </div>
       </div>
     </section>
     <!-- END section -->
-
     <section class="section border-t">
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
             <h2 class=" heading mb-4">Dog Breed Collections</h2>
-            <!-- <p class="mb-5 lead"></p> -->
           </div>
         </div>
 
         <div class="row no-gutters">
           <div class="col-md-4 element-animate">
-            <a href="germanShepherd.html" class="link-thumbnail">
+            <a href="germanShepherd.php" class="link-thumbnail">
               <h3>German Shepherd</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
-            <a href="labrador.html" class="link-thumbnail">
+            <a href="labrador.php" class="link-thumbnail">
               <h3>Labrador</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
-            <a href="single.html" class="link-thumbnail">
+            <a href="germanShepherd.php" class="link-thumbnail">
               <h3>Bulldog</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
-            <a href="rottweiler.html" class="link-thumbnail">
+            <a href="rottweiler.php" class="link-thumbnail">
               <h3>Rottweiler</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
-            <a href="single.html" class="link-thumbnail">
+            <a href="rottweiler.php" class="link-thumbnail">
               <h3>Beagle</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
-            <a href="single.html" class="link-thumbnail">
+            <a href="labrador.php" class="link-thumbnail">
               <h3>Golden Retriever</h3>
               <span class="ion-plus icon"></span>
               <img src="img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
@@ -189,7 +143,7 @@
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
             <h2 class=" heading mb-4">Recent Blog Post</h2>
-            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+            <p class="mb-5 lead">Read what some of our viewers have to say</p>
           </div>
         </div>
 
@@ -197,12 +151,12 @@
           <div class="col-md-6">
 
             <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="img/blog2.png" alt="Placeholder image" class="img-fluid"></a>
+              <a href="blog.php" class="mr-5"><img src="img/blog2.png" alt="Placeholder image" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">May 24, 2019</span>
-                <h3 class="mt-2 text-black"><a href="blog.html">About Training Your Dog</a></h3>
+                <h3 class="mt-2 text-black"><a href="blog.php">About Training Your Dog</a></h3>
                 <p>Dog training is teaching a response to cues or commands, or the performance of actions not necessarily natural to the dog, and also raising a dog accommodated to his environment by modifying natural digging, barking and eliminating behaviors. Dog training is defined as the purposeful changing of a dog's behavior</p>
-                <p><a href="blog.html" class="btn btn-primary btn-sm">Read more</a></p>
+                <p><a href="blog.php" class="btn btn-primary btn-sm">Read more</a></p>
               </div>
             </div>
 
@@ -211,22 +165,22 @@
           </div>
           <div class="col-md-6">
             <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="img/blog_1.jpg" alt="Placeholder image" class="img-fluid"></a>
+              <a href="blog.php" class="mr-5"><img src="img/blog_1.jpg" alt="Placeholder image" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">May 24, 2019</span>
-                <h3 class="mt-2 text-black"><a href="blog.html">How to Get A Dog</a></h3>
+                <h3 class="mt-2 text-black"><a href="blog.php">How to Get A Dog</a></h3>
                 <p>We are happy to provide a caring family to our dogs so just contact us and we will set up a meeting on our shelter</p>
-                <p><a href="blog.html" class="btn btn-primary btn-sm">Read more</a></p>
+                <p><a href="blog.php" class="btn btn-primary btn-sm">Read more</a></p>
               </div>
             </div>
 
             <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="img/blog3.png" alt="Placeholder image" class="img-fluid"></a>
+              <a href="blog.php" class="mr-5"><img src="img/blog3.png" alt="Placeholder image" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">May 24, 2019</span>
-                <h3 class="mt-2 text-black"><a href="blog.html">What Are Dog Breeds</a></h3>
+                <h3 class="mt-2 text-black"><a href="blog.php">What Are Dog Breeds</a></h3>
                 <p>Dog breeds are dogs that have relatively uniform physical characteristics developed by humans, with breeding animals selected for phenotypic traits such as size, coat color, structure, and behavior.</p>
-                <p><a href="blog.html" class="btn btn-primary btn-sm">Read more</a></p>
+                <p><a href="blog.php" class="btn btn-primary btn-sm">Read more</a></p>
               </div>
             </div>
 

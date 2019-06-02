@@ -72,7 +72,7 @@
             </div>
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary">
+              <a href="mailto:korabspahiu123@hotmail.com"><input type="submit" value="Send Message" class="btn btn-primary"></a>
               </div>
             </div>
           </form>
@@ -101,64 +101,6 @@
     </div>
   </section>
 
-
-  <section class="section bg-light">
-    <div class="container">
-      <div class="row justify-content-center mb-5 element-animate">
-        <div class="col-md-8 text-center">
-          <h2 class="text-uppercase heading mb-4">Testimonial</h2>
-          <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
-            necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-        </div>
-      </div>
-      <div class="row element-animate">
-        <div class="major-caousel js-carousel-1 owl-carousel">
-          <div>
-            <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <h3 class="mt-0 text-black">Mellisa Howard <em>says...</em></h3>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae dicta maxime
-                  tempore tenetur, dolores officia, sed laudantium repellendus distinctio rem unde dolorum fugiat eum
-                  doloremque, numquam fuga autem nisi.&ldquo;</p>
-              </div>
-
-            </div>
-          </div>
-          <div>
-            <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <h3 class="mt-0 text-black">Mike Richardson <em>says...</em></h3>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae dicta maxime
-                  tempore tenetur, dolores officia, sed laudantium repellendus distinctio rem unde dolorum fugiat eum
-                  doloremque, numquam fuga autem nisi.&ldquo;</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <h3 class="mt-0 text-black">Charles White <em>says...</em></h3>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae dicta maxime
-                  tempore tenetur, dolores officia, sed laudantium repellendus distinctio rem unde dolorum fugiat eum
-                  doloremque, numquam fuga autem nisi.&ldquo;</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <h3 class="mt-0 text-black">Laura Smith <em>says...</em></h3>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae dicta maxime
-                  tempore tenetur, dolores officia, sed laudantium repellendus distinctio rem unde dolorum fugiat eum
-                  doloremque, numquam fuga autem nisi.&ldquo;</p>
-              </div>
-            </div>
-          </div>
-        </div>
         <!-- END slider -->
       </div>
     </div>

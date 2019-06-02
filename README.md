@@ -1,2 +1,5 @@
-# Project_Gr9_ProgramimiNeInternet
-# Tema po menojm me kon "dogshelter" ose najsen qashtu ama propozoni qka tju bjen Ndermen.
+Game
+====
+
+A simple PHP card game
+Play it here: http://venus.cs.qc.edu/~mgordon/Game/Start.php
