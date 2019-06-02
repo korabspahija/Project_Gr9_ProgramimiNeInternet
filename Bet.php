@@ -47,20 +47,13 @@ $_SESSION['deck'] = $deck;
 <?php
 require "header.php";
 ?>
-<!-- <?php
-session_start();
-$cash = intval($_SESSION['cash']);
-$deck = $_SESSION['deck'];
-for($i=1;$i<=4;$i++){
-$card = array_shift($deck);
-echo "Card " . $i . " is " . $card['face'] . ' of ' . $card['suit'] . "s<br>";
-}
-echo "Bet on what the fifth card will be. (Careful, there are 2 jokers!)<br>"; 
-echo "You have $";
-echo $cash . "<br>";
-$_SESSION['deck'] = $deck;
-?>
-<p>How would you like to place your bets?</p> -->
+<section class="home-slider inner-page owl-carousel">
+        <div class="slider-item" style="background-image: url('img/letrat4.jpg');">
+            <div class="container">
+                <div class="row slider-text align-items-center justify-content-center">
+                    <div class="col-md-8 text-center col-sm-12 element-animate">
+
+<p>How would you like to place your bets?</p>
 <form action="Deal.php" method="post">
 <table>
 <tr>
@@ -104,6 +97,12 @@ $_SESSION['deck'] = $deck;
 </tr> 
 </table>
 <input class="btn btn-primary btn-sm" type="submit" value="Bet!">
+</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
