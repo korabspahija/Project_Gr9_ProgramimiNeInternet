@@ -81,7 +81,7 @@
         <div class="major-caousel js-carousel-1 owl-carousel">
           <div>
             <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/korabi.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <a href="adoption-single.html"><img src="img/korabi1.jpg" alt="Image Placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <h3 class="mt-0 text-black">Korab Spahija</h3>
               </div>
@@ -89,7 +89,7 @@
           </div>
           <div>
             <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/kreshniku.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <a href="adoption-single.html"><img src="img/kreshniku1.jpg" alt="Image Placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <h3 class="mt-0 text-black">Kreshnik Malaj</h3>
               </div>
