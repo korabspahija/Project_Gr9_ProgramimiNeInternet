@@ -118,6 +118,9 @@
                             <div class="col-md-6 form-group">
                                 <input type="submit" name="Submit" value="Login" class="btn btn-primary">
                             </div>
+                            <div class="col-md-6 form-group">
+                               <a href="signup.php"   type="submit" name="Submit" value="Sign-Up" class="btn btn-primary"> signup</a>
+                            </div>
                         </div>
                     </form>
                 </div>

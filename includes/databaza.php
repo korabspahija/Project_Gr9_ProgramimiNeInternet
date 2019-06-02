@@ -3,30 +3,35 @@
 
     $host = "localhost";
     $user = "root";
-    $password = "Spectre007";
-    $db = "php";
+    $password = "";
+    $db = "dog_shelter";
 
     $conn = mysqli_connect($host, $user, $password, $db);
-//     mysql_select_db($db);
+    
+    if (!$conn){
+        die("Connection Failed: ".mysqli_connect_error());
+    }
 
-//     if(isset($_POST['username'])){
+    // mysql_select_db($db);
+
+    // if(isset($_POST['username'])){
         
-//         $uname = $_POST['username'];
-//         $password = $_POST['password'];
+    //     $uname = $_POST['username'];
+    //     $password = $_POST['password'];
 
-//         $sql = "select * from loginform where user='" . $uname . "'AND Pass='" . $password . "'limit 1";
+    //     $sql = "select * from loginform where user='" . $uname . "'AND Pass='" . $password . "'limit 1";
         
-//         $result = mysql_query($sql);
+    //     $result = mysql_query($sql);
 
-//         if(mysql_num_rows($result) == 1){
-//             echo "You Have Succesfully Logged In";
-//             exit();
-//         }
-//         else{
-//             echo "You Have Entered Incorrect Password";
-//             exit();
-//         }
-//     }
+    //     if(mysql_num_rows($result) == 1){
+    //         echo "You Have Succesfully Logged In";
+    //         exit();
+    //     }
+    //     else{
+    //         echo "You Have Entered Incorrect Password";
+    //         exit();
+    //     }
+    // }
 ?>
 
  <!-- qka duhet HTML me pas...
