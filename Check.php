@@ -47,7 +47,6 @@ foreach($facebets as $face=>$bet){
   
 }
 
-
 foreach($suitbets as $suit=>$bet){
   $totalbet += intval($_POST[$suit]);
 }

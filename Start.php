@@ -70,7 +70,11 @@ $_SESSION['cash'] = 100;
         <div class="row justify-content-center mb-5">
           <div class="col-md-4"></div>
           <div class="col-md-8 section-heading">
-            <h2>Press the button</h2>
+          <?php
+          $trimExample = "TrimPress the button";
+          $trimmedExampled = trim($trimExample, "Trim");//trim
+          echo "<h2>" . $trimmedExampled . "</h2>";
+          ?>
             <input class="btn btn-primary btn-sm" type="submit" value="Play!">
           </div>
         </div>

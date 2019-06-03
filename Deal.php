@@ -71,6 +71,12 @@ foreach($suitbets as $suit=>$bet){
   }
   $totalbet += intval($_POST[$suit]); 
 }
+$arrayForImplode = array("Y", "O", "U");
+$strForImplode = implode(" ", $arrayForImplode);//implode
+
+$strForExplode = "LOST";
+$arrayForExplode = explode(" ", $strForExplode);//explode
+$str1ForImplode = implode(" ", $arrayForExplode);
 
 if($cash - $totalbet >= 0 && $allbetsvalid){
 foreach($facebets as $face => $bet){
@@ -78,11 +84,11 @@ foreach($facebets as $face => $bet){
    $bets = $facebets[$face];
    if($card['face']==$face){
       $cash+=(13*$bets);
-      echo "<h3>You won $" . 13*$bets . " with your bet on " . $face . ".<br></h3>"; 
+      printf("<h3>You won $%d with your bet on %d .<br></h3>", 13*$bets, $face); //printf
    }//card match
    else{
   	$cash -=$bets; 
-	echo "<h3>You lost $" . $bets . " with your bet on " . $face . ".<br></h3>";
+	echo "<h3>You lost $" . $bets . " with your bet on " . $face . ".".$strForImplode." " . $str1ForImplode."<br></h3>";
    }//card not match
 }//if bet wasn't zero
 }//foreach
@@ -132,6 +138,14 @@ $_SESSION["deck"] = $deck;
 else {
   echo "<h3>Your bet was invalid. Do not bet more than you have. Do not bet a negative amount.<br></h3>";
 }
+
+
+$replaceExample = str_replace("%korabi%", "kreshniku", "Une %korabi% e kam krijuar lojen..");//replace
+
+$substrExample = substr($replaceExample, 0, -2);//substr
+
+echo "<p>Substring: ".strlen($substrExample)."</p>";
+
 ?>
 
 </form>
