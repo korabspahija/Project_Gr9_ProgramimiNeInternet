@@ -20,7 +20,7 @@ if (isset($_POST['signup-submit'])) { //nese e ke prek butonin signup
         header("Location: ../signup.php?error=invalidusername&email=" . $email); //ta kthen emailin nese e ke shkru
         exit();
     } else if ($password !== $repeat_password) { //nese passwordat nuk jane te njejte
-        header("Location: ../signup.php?error=passwordcheckusername=" . $username . "&email=" . $email);
+        header("Location: ../signup.php?error=passwordcheck&username=" . $username . "&email=" . $email);
         exit();
     } else {
         $sql = "SELECT uname FROM login WHERE uname=?"; //placeholder
@@ -38,7 +38,7 @@ if (isset($_POST['signup-submit'])) { //nese e ke prek butonin signup
                 header("Location: ../signup.php?error=usernametaken&email=".$email);
                 exit();
             } else {
-                $sql = "INSERT INTO login (uname, upass, umail) VALUES (?, ?, ?)"; //?=placeholders 
+                $sql = "INSERT INTO login (uname, upass, umail) VALUES (?, ?, ?)"; //?=placeholders  mbrojtje nga SQL injections
                 $stmt = mysqli_stmt_init($conn); //stmt = statement
                 if (!mysqli_stmt_prepare($stmt, $sql)) { //nese fail
                     header("Location: ../signup.php?error=sqlerror");

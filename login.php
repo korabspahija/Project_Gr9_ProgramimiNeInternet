@@ -84,7 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-5 order-2">
-                    <form action="login.php" method="post">
+                    <form action="includes/login.inc.php" method="post">
                         <div class="row">
                             <div class="col-md-12 form-group">
 
@@ -107,19 +107,13 @@
                                 <input name="password" type="password" id="password" class="form-control ">
                             </div>
                         </div>
-                        <!-- <div class="row">
-                            <div class="col-md-12 form-group">
-                                <label for="message">Write Message</label>
-                                <textarea name="message" id="message" class="form-control " cols="30"
-                                    rows="8"></textarea>
-                            </div>
-                        </div> -->
+
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="submit" name="Submit" value="Login" class="btn btn-primary">
+                               <button  type="submit" name="login-submit" class="btn btn-primary">login</button>
                             </div>
                             <div class="col-md-6 form-group">
-                               <a href="signup.php"   type="submit" name="Submit" value="Sign-Up" class="btn btn-primary"> signup</a>
+                               <a href="signup.php"   type="submit" name="Submit" value="Sign-Up" class="btn btn-primary">signup</a>
                             </div>
                         </div>
                     </form>

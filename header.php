@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">

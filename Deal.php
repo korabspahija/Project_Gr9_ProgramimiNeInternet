@@ -146,6 +146,7 @@ $substrExample = substr($replaceExample, 0, -2);//substr
 
 echo "<p>Substring: ".strlen($substrExample)."</p>";
 
+
 ?>
 
 </form>
@@ -158,7 +159,21 @@ echo "<p>Substring: ".strlen($substrExample)."</p>";
         </div>
         </div>
         </section>
+<?php
+$string = 'June 05, 2019'; 
+$pattern = '/(\w+) (\d+), (\d+)/i'; 
+$replacement = '${1} 02, $3'; 
+  
+// print output of function 
+echo "<p>".preg_replace($pattern, $replacement, $string."</p>"); 
 
+/*Parameters: This function accepts five parameters as mention above and describe below.
+$pattern: This parameter contains the string element which is used to search the content and it can be a string or array of string.
+$replacement: It is mandatory parameter which specifies the string or an array with strings to replace.
+$subject: The string or an array with strings to search and replace.
+$limit: This parameter specifies the maximum possible replacements for each pattern.
+$count: It is optional parameter. This variable will be filled with the number of replacements done.*/
+?>
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
