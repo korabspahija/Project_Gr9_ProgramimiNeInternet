@@ -40,11 +40,7 @@ require "header.php";
             <div class="row">
                 <div class="col-md-6 mb-5 order-2">
                     <form action="includes/signup.inc.php" method="post">
-                        <div class="row">
-                            <div class="col-md-12 form-group">
 
-                            </div>
-                        </div>
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label for="email">Email</label>
@@ -56,11 +52,6 @@ require "header.php";
                                 <label for="username">Username</label>
                                 <input name="username" type="text" id="username" class="form-control ">
                             </div>
-                        </div>
-                        <div class="row">
-                            <!-- <div class="col-md-12 form-group">
-
-                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-12 form-group">

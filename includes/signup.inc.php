@@ -44,11 +44,11 @@ if (isset($_POST['signup-submit'])) { //nese e ke prek butonin signup
                     header("Location: ../signup.php?error=sqlerror");
                     exit();
                 } else {
-                    $hashedPwd = password_hash($password, PASSWORD_DEFAULT); //e enkodon passwordin
+                    // $hashedPwd = password_hash($password, PASSWORD_DEFAULT); //e enkodon passwordin
 
-                    mysqli_stmt_bind_param($stmt, "sss", $username, $hashedPwd, $email);
+                    mysqli_stmt_bind_param($stmt, "sss", $username, $password, $email);
                     mysqli_stmt_execute($stmt);
-                    header("Location: ../signup.php?signup=success");
+                    header("Location: ../login.php?signup=success");
                     exit();
                 }
             }

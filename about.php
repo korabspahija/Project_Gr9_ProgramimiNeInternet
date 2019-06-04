@@ -43,7 +43,7 @@
 
   <section>
     <div class="half d-md-flex d-block">
-      <div class="image" style="background-image: url('img/slider-1.jpg')"></div>
+      <div class="image" style="background-image: url('img/rtp1.jpg')"></div>
       <div class="text text-center element-animate">
         <h3 class="mb-4">Our Mission</h3>
         <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis tempora inventore, aliquam
@@ -81,7 +81,7 @@
         <div class="major-caousel js-carousel-1 owl-carousel">
           <div>
             <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/korabi1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <img src="img/korabi1.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Korab Spahija</h3>
               </div>
@@ -89,7 +89,7 @@
           </div>
           <div>
             <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/kreshniku1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <img src="img/kreshniku1.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Kreshnik Malaj</h3>
               </div>
@@ -97,7 +97,7 @@
           </div>
           <div>
             <div class="media d-block media-custom text-center">
-              <a href="adoption-single.html"><img src="img/qendrimi.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <img src="img/qendrimi.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Qendrim Gashi</h3>
               </div>

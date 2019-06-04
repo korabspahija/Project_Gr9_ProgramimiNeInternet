@@ -26,7 +26,7 @@
             <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
               <li><a href="about.php">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
+              <li><a href="termsofuse.php">Terms of Use</a></li>
               <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
