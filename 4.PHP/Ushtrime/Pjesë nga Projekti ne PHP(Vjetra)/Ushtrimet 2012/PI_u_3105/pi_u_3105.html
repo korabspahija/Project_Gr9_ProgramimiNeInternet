@@ -1,0 +1,50 @@
+<html>
+<head>
+<script type="text/javascript">
+function submitForm()
+{ 
+$.ajax({ type: "POST", url: "perpunimi.php", data: {id : menuId}, dataType: "html"});
+}
+</script>
+</head>
+	<body>
+		<form id="ContactForm" onsubmit="">
+			<table>
+				<tr>
+					<td>Emri</td>
+					<td><input type="text" id="emri" name="emri"</td>
+				</tr>
+				<tr>
+					<td>Mbiemri</td>
+					<td><input type="text" id="mbiemri" name="mbiemri"</td>
+				</tr>
+				<tr>
+					<td>Gjinia</td>
+					<td><input type="radio" id="gjinia" name="gjinia" value="Mashkull">Mashkull<br>
+					<input type="radio" id="gjinia" name="gjinia" value="Femer">Femer<br></td>
+				</tr>
+				<tr>
+					<td>Komuna</td>
+					<td>
+						<select id="Komuna" name="Komuna">
+							<option value = "1">Prishtine</option>
+							<option value = "2">Mitrovice</option>
+							<option value = "3">Ferizaj</option>
+							<option value = "4">Gjilan</option>
+							<option value = "5">Prizren</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Komente</td>
+					<td><textarea id="Komente" name="Komente" cols=10 rows=5></textarea></td>
+				</tr>
+				<tr>
+					<td><colspan="2">
+					<input type="submit" name="dergo" value="Dergo">
+					</td>
+				</tr>
+			</table>
+		</form>
+	<body>
+</html>

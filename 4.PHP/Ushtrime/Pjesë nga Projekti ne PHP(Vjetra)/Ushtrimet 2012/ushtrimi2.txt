@@ -1,0 +1,53 @@
+<? echo "FIEK"; ?>
+
+localhost/FIEK
+---------------------
+<?php 
+
+
+
+echo "FIEK"; 
+echo "FIEK"; 
+echo "FIEK"; 
+//comment
+
+
+
+
+?>
+<html>
+</html>
+---------------------
+<?php 
+
+echo "<table border=\"1\">";
+
+$Anetaret_Grupi=array(array("Adrian", "Krasniqi", "Red"), array("Arianit", "Lubishtani", "Black"), array("Alban", "Sejdiu", "Blue"));
+
+$Numri_Grupit=1;
+
+$Emri_Fk="FIEK";
+
+for($i=0; $i<4; $i++)
+
+{
+	echo "<tr>";
+
+	for($j=0; $j<12; $j++)
+	
+	{
+		
+		echo "<td>";
+	
+		
+
+		echo "</td>";
+	
+	}
+	
+	echo "</tr>";
+
+}
+
+echo "</table>";
+?>

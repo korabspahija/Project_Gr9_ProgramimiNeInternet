@@ -1,0 +1,98 @@
+/* ----- BASIC ELEMENTS AND FONTS ----- */
+
+
+html, body {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Tahoma';
+	background: #072450;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+
+
+.lidhja_dep p {
+	margin:0px `0px 20px 25px;
+	font-size:16px;
+	color:#fff;
+	text-transform: uppercase;
+
+}	
+.hyrje_dep p {
+	margin: 10px 0px 10px 0px;
+	font-size:11px;
+	text-align:justify;
+}
+
+.yellow {
+	color:#ffd502;
+	font-weight:bold;
+}
+
+h1 {
+	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin: 0px 0px 0px 0px ;
+	margin: 10px 0px 0px 0px;
+	color:#fff;
+	}
+	
+h3 {
+	margin: 0px 0px 10px 0px;
+	text-transform:capitalize;
+	font-size:12px;
+	color:#fff;
+}
+
+#lista_dep {
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	list-style: none;
+	overflow: hidden;
+}
+
+#lista_dep li {
+	width: 170px;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#lista_dep a {
+	color:#FFFFFF;
+}
+
+.dep_lidhja a  {
+	display: block;
+	width: 170px;
+	height: 20px;
+	padding-left: 25px;
+	line-height:20px;
+}
+
+.dep_lidhja_fundit a  {
+	display: block;
+	width: 170px;
+	height: 21px;
+	padding-left: 25px;
+	line-height:21px;
+}
+
+
+.lidhja_dep {
+	width: 170px;
+	float:left;
+	margin:0 0 0 10px;
+}
+
+.hyrje_dep {
+	width: 200px;
+	margin:0px 0px 0px 20px;
+	float: left;
+}

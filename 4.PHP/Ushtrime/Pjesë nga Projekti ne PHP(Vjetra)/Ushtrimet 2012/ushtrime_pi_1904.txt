@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<h3>Ushtrime nga programimi ne internet 19.04.2012</h3>
+<p>test paragraph 1</p>
+<p>test paragraph 2</p>
+<button>Kliko</button>
+</body>
+</html>

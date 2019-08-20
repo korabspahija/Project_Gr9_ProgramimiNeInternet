@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+      "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Mobile Web</title>
+
+    </head>
+    <body>
+        <form action="formAction" method="post">
+            <dl>
+                <dt><label for="country">Country</label></dt>
+                <dd>
+                    <select name="country">
+                        <option>Argelia</option>
+                        <option>Argentina</option>
+                        <option>Bolivia</option>
+                        <option>Brazil</option>
+                    </select>
+                </dd>
+
+                <dt><label for="filter">Looking for</label></dt>
+                <dd>
+                    <select name="filter" multiple="multiple">
+                        <option>Flights</option>
+                        <option>Hotels</option>
+                        <option>Restaurants</option>
+                        <option>Car Rental</option>
+                    </select>
+                </dd>
+            </dl>
+        </form>
+    </body>
+</html>

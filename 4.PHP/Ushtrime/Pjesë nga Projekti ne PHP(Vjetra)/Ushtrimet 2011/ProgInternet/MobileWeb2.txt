@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+    "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>First Template</title>
+    </head>
+    <body>
+        <h1>First Template</h1>
+        <h2>Programming the Mobile Web</h2>
+        <p>Welcome to the first template of this book</p>
+        <p>It <strong>should work</strong> in every mobile browser in the market</p>
+        <ol>
+            <li><a href="http://m.yahoo.com" accesskey="1">Yahoo!</a></li>
+            <li><a href="http://m.google.com" accesskey="2">Google</a></li>
+            <li><a href="http://m.bing.com" accesskey="3">Bing</a></li>
+        </ol>
+        <p><img src="images/123.jpg" width="150" height="50"
+                alt="(C) mobilexweb.com" /></p>
+    </body>

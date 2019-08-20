@@ -1,0 +1,90 @@
+body {
+ background: #222 url(headergrunge.jpg) repeat-x;
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 16px;
+ color: #fff;}
+
+.br { clear: both;}
+
+#container { width: 700px;}
+
+#dep { float: left;}
+
+#dep h1 { 
+ margin-top: 30px;
+ margin-left: 10px;
+ font-size: 1.6em;
+ letter-spacing: -0.1em;}
+ 
+#deplista { float: left; width: 170px; margin-top: 30px; margin-left: 5px;}
+
+ #deplista ul {
+ list-style: none;
+}
+
+#deplista li a{
+ display: block;
+ height: 25px;
+  width: 100px; 
+ padding: 9px;
+ margin: 5px;
+ background: inherit;
+ border-right: 4px solid #444;
+ color: #999;
+ text-transform: lowercase;
+ font-size: 0.9em;}
+ 
+#deplista li a:hover {
+ color: #f4f4f4;
+ background: #333;
+ border-right: 4px solid #0000FF;}
+ 
+#deplista li .active {
+ color: #999;
+ background: #333;
+ border-right: 4px solid #444;}
+
+#qendra { float: right; width: 510px; margin-top: 30px; margin-left: 2px; }
+
+#qendra a { color:#D01A71; font-weight: bold;}
+
+#qendra a:hover { 
+ color: #fff; 
+ background: #D01A71; 
+ font-weight: bold;}
+ 
+#qendra p {line-height: 1.4em; font-size: 1em; margin-bottom: 20px; color: #f4f4f4;}
+
+#qendra h3 {
+text-indent: 20px;
+color: #999;
+letter-spacing: -0.1em;
+margin-bottom: 4px;
+}
+
+#qendra h3:hover { color: #fff;}
+
+#qendra .code{
+	  color: #444;
+	  background: #F4f4f4 url(codenums.png) repeat-y;
+	  border: 1px solid #ccc;
+	  padding: 1px;
+	  padding-left: 25px;
+	  font-family: "courier new", helvetica, "times new roman", monospace;
+	  font-size: 0.8em;
+	  width: 470px;
+	  margin: 2px auto;
+	  white-space: nowrap;
+	  overflow: auto;}
+	  
+#qendra  code {
+	  color: #fff;
+	  font-family: "courier new", helvetica, "times new roman", monospace;
+	  background-color: #333;
+	  font-size: 1.2em;}
+
+#qendra blockquote { color: #999; font-style: italic; text-align: center; width: 300px; margin: 10px auto;}
+ 
+
+
+ 

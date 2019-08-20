@@ -1,0 +1,38 @@
+<?
+//Manipulimi me stringje
+// www.php.net/manual/en/ref.strings.php
+
+//trim(), ltrim(), chop() - funksione per heqjen e WhiteSpace-ave
+$variabla = "      Hello   World    ";
+trim($variabla);
+
+//nl2br() - new line to break
+$mesazhi = "Hello \n\n how r u \n ?";
+nl2br($mesazhi);
+
+//strtoupper() - rritja e shkronjave
+
+//AddSlashes(), StripSlashes()
+
+//explode(string seperator, string input), implode(string seperator, string ar...)
+//delimiter, psh: delimiteri @, ndahet apo bashkohet stringu ne vendet ku ka "@"
+
+//substr(), strlen()
+
+//strstr(haystack, needle) returns haystack, strpos(), str_replace()
+
+
+//Regular Expressions
+// www.gskinner.com/RegExr/
+
+// . [a-z][a-zA-Z][aeiouy][^a-z]
+//SUb expression (very )* large +, * (very ) {1, 3}
+// ^ - beginning [^ - not - "^" quhet carrot dmth negacion
+//branching (com|edu|net) - mundesi te ndryshme
+// \ escape karakteri - per te gjetur WildCards
+// ^[a-zA-Z0-9_]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$ - validimi i email adresave
+// ose edhe ^[a-zA-Z0-9_]+@[a-zA-Z0-9\-\.]+$
+// $ ne fund paraqet perfundimin e stringut
+
+
+?>

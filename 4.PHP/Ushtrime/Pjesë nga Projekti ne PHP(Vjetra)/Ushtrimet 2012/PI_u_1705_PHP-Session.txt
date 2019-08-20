@@ -1,0 +1,11 @@
+<?
+//Session control logic
+
+//Cookies
+// setcookie("cookie", "Alban"); - vendosja e cookies
+// $_COOKIE['username'];
+
+session_start();
+$_SESSION['variabla'] = "Orhan";
+
+?>

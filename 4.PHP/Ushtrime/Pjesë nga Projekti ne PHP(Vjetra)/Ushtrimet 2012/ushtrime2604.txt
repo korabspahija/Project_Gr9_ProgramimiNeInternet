@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php 
+for ($i=0; $i<4; $i++)
+{
+	for($j=0; $j<3; $j++)
+	{
+		echo $i . " " . $j;
+	}
+}
+?>
+</body>
+</html>

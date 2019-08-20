@@ -1,0 +1,402 @@
+@charset "utf-8";
+/***********************CCS-Background Pozita********************/
+body{
+    margin: 0;
+    background-attachment: scroll;
+	background-image:url(foto/img01.gif);
+    background-repeat:repeat-x; 
+}
+#header {
+
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+/**stafi**/
+
+#stafi #stafi1 { padding:10px;}
+#stafi #stafi1 li {list-style-type:none;}
+
+
+/*******************CSS-Menu-ja*********************************/
+
+ul#css1 {
+    cursor: default;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align:center;
+}
+ul#css1 ul {
+    cursor: default;
+    font-size: 0;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+
+
+}
+ul#css1 ul li {
+
+    float: none;
+    width:120px;
+
+
+}
+ul#css1 li {
+    background-image: none;
+    float: left;
+    padding: 0 0 0 0;
+    position: relative;
+    white-space: nowrap;
+
+}
+ul#css1 li ul {
+    display: none;
+    top: 0;
+
+}
+ul#css1 li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color:#06F;
+
+}
+ul#css1 > li {
+    background-image: none;
+    background-position: center;
+}
+ul#css1 > li > span {
+    background-color:#06F;
+    display: block;
+    
+}
+ul#css1 > li > span > a {
+    background-color:#999;
+    background-position: center;
+    background-repeat: repeat-x;
+    border-bottom-style: none;
+    color: #000;
+    display: block;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 16px;
+    font-style:normal;
+    border-left: 1px solid #FFFFFF;
+    margin:0;
+    width:120px;
+    height:22px;
+    padding: 8px 5px 8px 5px;
+    text-decoration: none;
+    
+
+}
+
+
+ul#css1 > li > span > a:active {
+    background-color:lightblue;
+    background-position: center;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+ul#css1 > li:hover > span {
+    display: block;
+}
+ul#css1 > li:hover > span > a {
+    background-color:#cccbc7;
+    background-position: center;
+    width:120px;
+    color: #272B4B;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+ul#css1 ul.nenMenu {
+    left: 0px;
+    top: 100%;
+    text-align:left;
+
+}
+ul#css1 ul.nenMenu > li {
+    background-image: none;
+}
+ul#css1 ul.nenMenu > li > span {
+    background-image: none;
+    display: block;
+    height:38px;
+}
+ul#css1 ul.nenMenu > li > span > a {
+
+    background-color:#999;
+    background-image: none;
+    background-position: center;
+    border-bottom: 1px none #fff;
+    border-right: 1px solid #fff;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    width: 120px;
+    height:27px;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+
+
+}
+
+
+ul#css1 ul.nenMenu > li > span > a:active {
+    background-color: #39F;
+    color: #272B4B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul#css1 ul.nenMenu > li:hover > span {
+    display: block;
+}
+ul#css1 ul.nenMenu > li:hover > span > a {
+    background-color:#cccbc7;
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+ul#css1 ul.subMenu {
+    left: 131px;
+    text-align: left;
+
+}
+ul#css1 ul.subMenu > li {
+    background-image: none;
+}
+ul#css1 ul.subMenu > li > span {
+    background-image: none;
+    display: block;
+}
+ul#css1 ul.subMenu > li > span > a {
+    background-color:#999;
+    background-image: none;
+    background-position: center;
+    border-bottom: 1px none #fff;
+    border-right: 1px solid #fff;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    width: 130px;
+    height:27px;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+ul#css1 ul.subMenu > li > span > a:active {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul#css1 ul.subMenu > li:hover > span {
+  display: block;
+}
+ul#css1 ul.subMenu > li:hover > span > a {
+	background-color:#cccbc7;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/***********************CCS-Kerkimi******************************/
+kerko{
+	position:absolute; right:84px;
+	position:absolute;
+	top:105px;
+
+	}
+
+/***********************CCS-RSS pozita ******************************/
+.rss {
+    background: url(foto/rss.png) right no-repeat;
+    font-size:14px;
+    color:#575650;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #cccbc7;
+    border-bottom-color: #cccbc7;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+.rss a { color:#575650; }
+
+/***********************CCS-RRjetet Sociale******************************/
+.footersocial {
+    font-size:12px;
+    line-height:18px;
+    color:#7d7d7d;
+    margin-top:-15px;
+    padding: 0px;
+}
+.footersocial ul {
+    list-style:none;
+    font-size:12px;
+    line-height:18px;
+    color:#7d7d7d;
+    padding:0;margin:0;
+    padding-top:5px;
+}
+/*dizajnimi i listes*/
+.footersocial ul li {
+    font-size:12px; 
+    line-height:18px;
+    color:#7d7d7d;
+    border-bottom:1px solid #B9B9B9;
+    padding:6px 0 3px 0;
+}
+/*nese kemi ndonje link*/
+.footersocial ul li a {
+    font-size:12px; 
+    line-height:18px;
+    color:#7d7d7d;
+}
+/*Kur ta vendosim mausin*/
+.footersocial ul li a:hover {
+    font-size:12px;
+    line-height:18px;
+    color:#000;
+    text-decoration:none;
+}
+
+
+/***********************CCS-Logini******************************/
+
+#login label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #40ACC7;
+         
+}
+
+#login input {
+	margin-bottom: 5px;
+	border: 1px solid #40ACC7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+       
+}
+
+
+.boxed .title {
+    padding: 5px 0 5px 20px; /**Cakton Trashesine e fushesh per titull*/
+    background:lightblue;   /**Cakton ngjyren e fushesh per titull*/
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+     -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+
+}
+
+
+#inputtext1, #inputtext2 {
+    color: #40ACC7;
+}
+
+#inputsubmit1 {
+    background: #40ACC7;
+    color: #FFFFFF;
+}
+
+
+/**************Div-i per publikime te rezultateve , syllabusit*********************/
+
+nav ul li a {
+	color:#575650;
+        display:block;
+       
+}
+nav ul li a:hover {
+        color: #000;
+        background-color:powderblue;
+
+
+}
+/*******Postimet**********/
+section#posts{
+  float: left;
+  width: 100%;
+  margin-top: -15px;
+
+}
+
+section#posts aside{
+  float: right;
+  width: 100%;
+  margin-left: 5%;
+  
+ 
+}
+section#posts1{
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+
+}
+
+section#posts1 aside{
+  float: right;
+  width: 100%;
+;
+
+
+}
+#publikimet {
+    margin-top:0px;
+    margin-right:100px;
+}
+header {
+
+    background-color:lightsteelblue;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+ 
+    color:#333;
+}
+footer{
+    background-color:lightblue;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    color:#333;
+}
+h2{
+    text-decoration: underline;
+    color:#333;
+}
+article{
+   background-color:whitesmoke;
+}
+aside{
+ 
+}

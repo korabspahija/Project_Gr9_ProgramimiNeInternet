@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>LinkedIn API</title>
+        <script type="text/javascript"
+                src="http://platform.linkedin.com/in.js">
+       api_key: NqCulx9npdQ7Wzv1svqfIEuciP35hkC-1LzPrivQ_YDiwBWrKJ8LmemA81jOSahK
+        </script>
+    </head>
+    <body>
+        <script type="in/Login">
+           Miresevini, <?js= firstName ?> <?js= lastName ?>.
+        </script>
+        <br/>
+        <br/>
+        <script type="IN/Share"
+                data-url="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost/grupi3/api/LinkedIn.html&title=Programimi%20Ne%20Internet&summary=ProgInternet&source=" data-counter="top">
+        </script>
+
+        <br/>
+        <br/>
+        <script type="IN/CompanyProfile"
+        data-format="inline" data-id="1035"></script>
+
+        <br/>
+        <br/>
+        <script type="IN/CompanyInsider" data-id="1035" data-modules="innetwork,newhires,jobchanges"></script>
+
+        <br/>
+        <br/>
+        <script type="IN/MemberProfile"
+        data-format="inline" data-id="http://al.linkedin.com/pub/besmir-sejdiu/30/a59/64b"></script>
+
+
+    </body> 
+</html>

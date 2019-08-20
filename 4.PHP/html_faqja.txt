@@ -1,0 +1,29 @@
+<!-- HTML Faqja-->
+<html>
+<body bgcolor="<?php echo $bgColor ?>" text="<?php echo $txtColor ?>"> 
+<form action= "<?php echo $_SERVER['PHP_SELF']; ?>" method ="POST">
+<p>Ngjyra e prapavise:</p>
+<select name=bgColor>
+<option value ="Red">E kuqe</option>
+<option value ="Green" selected>E gjelber</option>
+<option value ="Blue">E kalter</option>
+<option value ="Yellow">E verdhe</option>
+<option value ="Black">E zeze</option>
+<option value ="Brown">Kafe</option>
+<option value ="White">E bardhe</option>
+</select>
+<p>Ngjyra e tekstit:</p>
+<select name=txtColor>
+<option value ="Red">E kuqe</option>
+<option value ="Green" selected>E gjelber</option>
+<option value ="Blue">E kalter</option>
+<option value ="Yellow">E verdhe</option>
+<option value ="Black">E zeze</option>
+<option value ="Brown">Kafe</option>
+<option value ="White">E bardhe</option>
+</select>
+<input type ="hidden" name="submitted" value="true"></br>
+<input type="submit" value="Kujto vlerat">
+</form>
+</body>
+</html>

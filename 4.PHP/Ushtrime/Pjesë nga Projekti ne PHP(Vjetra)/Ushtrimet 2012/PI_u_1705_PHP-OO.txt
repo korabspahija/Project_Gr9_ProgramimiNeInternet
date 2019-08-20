@@ -1,0 +1,50 @@
+<?php
+
+//Object-Oriented PHP
+
+class Tavolina
+{
+	var $atributi1;
+	public $atributi2;
+	protected $atributi4;
+	$atributi3;
+	const ERROR = "Gabim!";
+
+	public function Tavolina()
+	{
+
+	}
+	
+	function__construct()
+	{
+
+	}
+
+	function __destruct()
+	{
+
+	}
+
+	function EmriFunksionit($parametri1, $parametri2)
+	{
+
+	}
+
+	static function FunksioniST()
+	{
+		return $this->atributi3;
+	}
+
+}
+
+$Tavolina = new Tavolina();
+$Tavolina->atributi1 = "Tavolina ime";
+$rezultati = $Tavolina->EmriFunksionit("popo", "test");
+$thirrja = Tavolina::FunksioniST();
+
+class Karrika extends Tavolina
+{
+	
+}
+
+?>

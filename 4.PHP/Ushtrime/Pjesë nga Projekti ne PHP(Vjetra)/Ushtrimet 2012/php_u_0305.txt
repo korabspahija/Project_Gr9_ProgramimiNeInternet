@@ -1,0 +1,8 @@
+static - nuk instancohet si objekt, thirret direkt
+
+echo - vetem shtyp
+print - mund te testohet se a eshte shtypur a jo (if(print ...)->true or false)
+print_r - shtyp vargjet, objektet
+
+lpmj.net/3.php : kapitujt 3(te gjitha shembujt) dhe 4 (deri te shembulli 20)
+php.net/manual : search date
